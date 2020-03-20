@@ -1,12 +1,12 @@
 # Covid-2019 stats
 
 ## Google Sheets charts build from sources:
-![Infections global - China - Italy](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=1201767191&format=image)
-![Deaths global - China - Italy](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=228379056&format=image)
-![Infections, Italy](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=437717484&format=image)
-![Deaths, Italy](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=1628789429&format=image)
-![Infections, China (up to 40k infections)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=2010688729&format=image)
-![Deaths, China (up to 40k infections)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=403228266&format=image)
+<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=1201767191&format=interactive"><img title="Infections global - China - Italy" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=1201767191&format=image" width="300px"></a>
+<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=228379056&format=interactive"><img title="Deaths global - China - Italy" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=228379056&format=image" width="300px"></a>
+<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=437717484&format=interactive"><img title="Infections, Italy" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=437717484&format=image" width="300px"></a>
+<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=1628789429&format=interactive"><img title="Deaths, Italy" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=1628789429&format=image" width="300px"></a>
+<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=2010688729&format=interactive"><img title="Infections, China (up to 40k infections)" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=2010688729&format=image" width="300px"></a>
+<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=403228266&format=interactive"><img title="Deaths, China (up to 40k infections)" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=403228266&format=image" width="300px"></a>
 
 
 ## Background
