@@ -1,12 +1,18 @@
 import datetime
 import os
 import re
-from typing import Mapping, Tuple
+from typing import Mapping, Tuple, NamedTuple
 
 FILENAME_REGEX = r"(\d{4})(\d{2})(\d{2}).csv"
 COUNTRY_REGEX = r"(.*),(\d+),(\d+)"
 available_dates: Tuple[datetime.datetime, ...] = ()
 global_mapping: Mapping[str, Mapping[datetime.datetime, Tuple[int, int]]] = {}
+
+
+class WhatToShow(NamedTuple):
+    record_type: bool = True
+    deaths: bool = True
+    infections: bool = True
 
 
 def parse_file(filename: str, file_date: datetime) -> None:
@@ -38,10 +44,18 @@ def parse_csv_files(src_dir: str) -> Tuple[datetime.datetime, ...]:
     return dates
 
 
-def prepare_overall_stats(result_filename: str, show_infections: bool = True, show_deaths: bool = True) -> None:
+def prepare_overall_stats(result_filename: str, show: WhatToShow) -> None:
     country_mappings = global_mapping.items()
     with open(os.path.abspath(result_filename), "w") as f:
-        f.write(f"date,record type,{','.join(country for country, _ in country_mappings)}\n")
+        file_header = "date"
+        dead_record_type = ""
+        infected_record_type = ""
+        if show.record_type:
+            file_header += ",record type"
+            dead_record_type = ",dead"
+            infected_record_type = ",infected"
+        file_header += "," + ",".join(country for country, _ in country_mappings)
+        f.write(file_header + "\n")
         for d in sorted(available_dates):
             infected_row = ()
             dead_row = ()
@@ -49,12 +63,13 @@ def prepare_overall_stats(result_filename: str, show_infections: bool = True, sh
                 country_infected, country_dead = ds.get(d, (0, 0))
                 infected_row += (str(country_infected),)
                 dead_row += (str(country_dead),)
-            if show_deaths:
-                f.write(f"{d},dead,{','.join(dead_row)}\n")
-            if show_infections:
-                f.write(f"{d},infected,{','.join(infected_row)}\n")
+            if show.deaths:
+                f.write(f"{d}{dead_record_type},{','.join(dead_row)}\n")
+            if show.infections:
+                f.write(f"{d}{infected_record_type},{','.join(infected_row)}\n")
 
 
 if __name__ == "__main__":
     available_dates = parse_csv_files("./src")
-    prepare_overall_stats("./result.csv")
+    prepare_overall_stats("./reports/d-results.csv", WhatToShow(deaths=True, infections=False, record_type=False))
+    prepare_overall_stats("./reports/i-results.csv", WhatToShow(deaths=False, infections=True, record_type=False))
