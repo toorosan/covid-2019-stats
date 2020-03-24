@@ -1,6 +1,6 @@
 # Covid-2019 stats
 
-## Google Sheets charts build from sources:
+## Google Sheets charts build from csv reports, made from separate source files:
 <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=1201767191&format=interactive"><img title="Infections global - China - Italy" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=1201767191&format=image" width="300px"></a>
 <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=228379056&format=interactive"><img title="Deaths global - China - Italy" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=228379056&format=image" width="300px"></a>
 <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=437717484&format=interactive"><img title="Infections, Italy" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQpSVqADWMEZZH15SXbz4RTUPwhcLqbSIQTkHA4XgMJ5zhH4Zs7cO6T188XNxrnGlFQ8hQQO1Ywpk-/pubchart?oid=437717484&format=image" width="300px"></a>
